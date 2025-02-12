@@ -1,6 +1,16 @@
 /* Smartphones (até 360px) */
 @media (max-width: 360px) {
     /* estilos para smartphones Adroid */
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #0669b8;
+        color: white;
+        text-transform: uppercase;
+        font-size:large;
+        height: 100px;
+      }
     .navbar{
         display: none;
     }
@@ -28,6 +38,17 @@
   }
 @media (max-width: 480px) {
     /* estilos para smartphones */
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #0669b8;
+        color: white;
+        text-transform: uppercase;
+        font-size:large;
+        height: 100px;
+      }
+    
     .navbar{
         display: none;
     }
@@ -57,6 +78,16 @@
   /* Tablets (481px a 768px) */
   @media (min-width: 481px) and (max-width: 768px) {
     /* estilos para tablets */
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #0669b8;
+        color: white;
+        text-transform: uppercase;
+        font-size:large;
+        height: 100px;
+      }
     .navbar{
         display: none;
     }

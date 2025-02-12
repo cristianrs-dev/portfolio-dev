@@ -5,6 +5,8 @@
     <link href="/portifolio/favicon.ico" rel="icon" />
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/responsive.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <meta content="width=device-width,initial-scale=1" name="viewport" />
     <meta content="#000000" name="theme-color" />
     <meta content="Web site created using create-react-app" name="description" />
@@ -14,38 +16,38 @@
     
   </head>
   <body>
-        <header class="header" id="topo">
-            <div class="logo">Dev Full Stack</div>
-        <!--<div> -->    
-              <div class="menuMobile" id="openBtn">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-              </div>
-              <nav class="sidebar" id="sidebar">
-                <button id="close-btn">X</button>
-                <ul>
-                
-                  <li><a href="/index.html">Front-end</a></li>
-                  <li><a href="backend.html">Back-end</a></li>
-                  <li><a href="#contato">Testes</a></li>
-                  <li><a href="#faq">Sobre</a></li>
-                  <li><a href="https://cristianrs-dev.github.io/coders-academy/" target="_blank">Serviços</a></li>
-                </ul>
-              </nav>
-    <!--</div> -->        
-            <div>
-              <nav class="navbar">
-                <ul class="nav-list">
-                    
-                    <li><a href="/index.html">Front-end</a></li>
-                    <li><a href="/pages/backend.html">Back-end</a></li>
-                    <li><a href="#testes">Testes</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="https://cristianrs-dev.github.io/coders-academy/" target="_blank">Serviços</a></li>
-                </ul>
-              </nav>
-            </div>
+    <header class="header" id="topo">
+      <div class="logo">Dev Full Stack</div>
+     
+      <div>
+        <nav class="navbar">
+          <ul class="nav-list">
+            
+            <li><a href="/index.html">Front-end</a></li>
+            <li><a href="/pages/backend.html">Back-end</a></li>
+            <li><a href="#testes">Testes</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="https://cristianrs-dev.github.io/coders-academy/" target="_blank">Serviços</a></li>
+          </ul>
+        </nav>
+      </div>
+        <div class="menuMobile" id="openBtn">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+  </header>
+        <nav class="sidebar" id="sidebar">
+          <button id="close-btn">X</button>
+          <ul>
+            
+            <li><a href="/index.html">Front-end</a></li>
+            <li><a href="/pages/backend.html">Back-end</a></li>
+            <li><a href="#testes">Testes</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="https://cristianrs-dev.github.io/coders-academy/" target="_blank">Serviços</a></li>
+          </ul>
+        </nav>
             <div class="whatsapp-fixo">
               <a
                 href="https://wa.me/5592981336790?"
@@ -148,7 +150,7 @@
                 <div class="card-imagem">
                   <img
                     alt="pagina conteudo"
-                    src="/img/paginaConteudo.gif"
+                    src="/img/inConstruction.png"
                     class="imagem-projeto"
                   />
                 </div>
@@ -176,7 +178,7 @@
                 <div class="card-imagem">
                   <img
                     alt="pagina conteudo"
-                    src="/img/paginaConteudo.gif"
+                    src="/img/inConstruction.png"
                     class="imagem-projeto"
                   />
                 </div>
@@ -204,48 +206,12 @@
                 </div>
               </div>
             </a>
-
-            <a href="https://cristianrs-dev.github.io/calculadora_IMC/">
-                <div class="item-card">
-                  <div class="card-imagem">
-                    <img
-                      alt="calculadora IMC"
-                      src="/img/calcIMC.PNG"
-                      class="imagem-projeto"
-                    />
-                  </div>
-                  <div class="card-texto">
-                    <h5 class="titulo-card">Calculadora IMC</h5>
-                    <p>
-                      Projeto pessoal desenvolvido com objetivo em aplicar os conceitos
-                      básicos de formulário html, conceitos básicos de javascript e as regras
-                      de negócio da calculadora imc.
-                    </p>
-                    <img
-                      alt="Bootstrap"
-                      src="/img/bootstrap.png"
-                      class="skill"
-                    />
-                    <img
-                      alt="javascript"
-                      src="/img/js.png"
-                      class="skill"
-                    />
-                    <img
-                      alt="figma"
-                      src="/img/figma.png"
-                      class="skill"
-                    />
-                  </div>
-                </div>
-              </a>
-              
               <a href="https://cristianrs-dev.github.io/appPay/">
                 <div class="item-card">
                   <div class="card-imagem">
                     <img
                       alt="app pay"
-                      src="/img/appPay.gif"
+                      src="/img/inConstruction.png"
                       class="imagem-projeto"
                     />
                   </div>
@@ -280,7 +246,7 @@
                   <div class="card-imagem">
                     <img
                       alt="hotel do norte"
-                      src="/img/hotelNorte.gif"
+                      src="/img/inConstruction.png"
                       class="imagem-projeto"
                     />
                   </div>
@@ -315,7 +281,7 @@
                   <div class="card-imagem">
                     <img
                       alt="site Banc"
-                      src="/img/valorBanc.gif"
+                      src="/img/inConstruction.png"
                       class="imagem-projeto"
                     />
                   </div>
@@ -350,7 +316,7 @@
                   <div class="card-imagem">
                     <img
                       alt="crudStore"
-                      src="/img/crudStore.gif"
+                      src="/img/inConstruction.png"
                       class="imagem-projeto"
                     />
                   </div>
@@ -441,5 +407,8 @@
             </div>
           </footer>
           <script src="/js/script.js"></script>
+        <script>
+          alert("pagina em construção")
+        </script>
   </body>     
 </html>
